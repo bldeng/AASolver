@@ -15,7 +15,7 @@ The code has been tested with the following systems and compilers:
 
 Compile the code using the following steps:
 
-1. Before compiling the code, make sure [Eigen] (http://http://eigen.tuxfamily.org) (version 3.3+) is installed, using either of the following methods:
+1. Before compiling the code, make sure [Eigen](http://http://eigen.tuxfamily.org) (version 3.3+) is installed, using either of the following methods:
 
 	* Download the package from the Eigen homepage, unzip it into a folder `eigen` within the folder `AndersonOpt/external`. Make sure the file `external/eigen/Eigen/Dense` can be found.
 	* Alternatively, use a package manager of your operating system to install Eigen, e.g.:
