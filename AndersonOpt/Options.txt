@@ -1,0 +1,21 @@
+#### Lines starting with '#' are comments
+
+## Number of iterations, must be at least 1.
+Iterations  100
+
+## Switch for Anderson Accleration. Set 1 for acceleration, 0 otherwise.
+Acceleration  1
+
+## Number of previous iterates used for acceleration. Must be positive.
+AndersonM  5
+
+## Solver for the linear system in the global step
+## 0 for full solve of the system
+## 1 for using one step of Jacobi iteration, similar to [Wang 2015]. The linear system needs to be diagonally dominant.
+GlobalUpdateType 0
+
+## Squared spring elasticity, only for physics simulation.
+SquareElasticity 5000000
+
+## Simulation time step, only for physics simulation.
+TimeStep 0.033
